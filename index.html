@@ -7,66 +7,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet" href="styles.css">
 </head>
 
-<style>
-
-  body {
-    margin: 80px;
-    font-size: 16px;
-    font-family: sans-serif;
-  }
-
-  form {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 50px;
-  }
-
-  #search-input {
-    width: 230px;
-    height: 28px;
-    padding: 0 5px;
-  }
-
-  .btn {
-    padding: 7px 20px;
-  }
-
-  #video-container {
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: 2fr 2fr;
-  }
-
-  @media (max-width: 1050px) {
-    #video-container {
-      grid-template-columns: 1fr;
-    }
-  }
-
-  @media (max-width: 590px) {
-    body {
-      margin: 20px;
-    }
-    .form {
-      margin-top: 40px;
-    }
-  }
-
-  @media (max-width: 590px) {
-    #search-input {
-      width: 150px;
-    }
-
-    .btn {
-      padding: 7px 10px;
-    }
-  }
-
-</style>
-
 <body>
+
+  <!-- Pre Loader -->
+  <div class="pre-loader"></div> 
 
   <form id="search">
     <div class="container">
